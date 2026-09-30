@@ -1,0 +1,75 @@
+/* atLocal brand primitives — the canonical copy.
+ *
+ * Source: Figma "atlocal - claude" (key XH0FlVgtUuxnsjTniOxUoY), page "Guide",
+ * frames 03 Colors and 04 Typography. Color names follow the guide's labels.
+ *
+ * Canonical home: github.com/HeyHeathbar/atlocal-brand, published at
+ * https://brand.atlocal.ai/atlocal.css. tokens.json is generated from this
+ * file (npm run tokens). Copy it UNCHANGED into atlocal.com, atlocalmedia.com
+ * and atlocal.ai; each of those repos checks its copy against this one.
+ * Never reference --al-* names from components. Each surface maps them to
+ * semantic roles in its own theme file and components use only those names.
+ *
+ * The kit defines colors and typefaces only. The type ramp, spacing scale,
+ * radii, and shadows below were chosen for the codebases and are the shared
+ * standard across all three surfaces.
+ */
+:root {
+  /* Color. Comment format is parsed by scripts/build-tokens.mjs:
+   * Name · Pantone <code> · CMYK c m y k                                   */
+  --al-midnight: #24125f; /* Midnight Focus · Pantone 273 C  · CMYK 98 97 0 37 */
+  --al-royal:    #2f2a95; /* Royal Vision   · Pantone 2370 C · CMYK 99 94 0 2  */
+  --al-ruby:     #bc204b; /* Ruby Drive     · Pantone 7636 C · CMYK 0 100 44 14 */
+  --al-blush:    #ff808b; /* Blush Glow     · Pantone 177 C  · CMYK 0 58 29 0  */
+  --al-bloom:    #ffb1bb; /* Soft Bloom     · Pantone 176 C  · CMYK 0 34 9 0   */
+  --al-velvet:   #f7f5f5; /* Velvet White   · CMYK 0 1 1 3                     */
+  --al-white:    #ffffff; /* Whisper White  · CMYK 0 0 0 0                     */
+
+  /* Gradients.
+   * Icon: Blush Glow at the top to Ruby Drive at the bottom.
+   * Brand: the app icon tile's gradient (Figma node 65:9278), which the guide's
+   * GRADIENT swatch matches as of 2026-09-30. */
+  --al-gradient-icon:  linear-gradient(0deg, #bc204b 0%, #ff808b 100%);
+  --al-gradient-brand: linear-gradient(151deg, #df4661 0%, #2f2a95 100%);
+
+  /* Type. Poppins for headings and body; Yeseva One for emphasis words only. */
+  --al-font-sans:    "Poppins", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --al-font-display: "Yeseva One", Georgia, "Times New Roman", serif;
+  --al-weight-regular:  400;
+  --al-weight-semibold: 600;
+
+  --al-text-xs:  0.75rem;  /* 12px */
+  --al-text-sm:  0.875rem; /* 14px */
+  --al-text-md:  1rem;     /* 16px */
+  --al-text-lg:  1.125rem; /* 18px */
+  --al-text-xl:  1.375rem; /* 22px */
+  --al-text-2xl: 1.75rem;  /* 28px */
+  --al-text-3xl: 2.25rem;  /* 36px */
+  --al-text-4xl: 3rem;     /* 48px */
+
+  --al-leading-tight:  1.15;
+  --al-leading-normal: 1.5;
+  --al-tracking-caps:  0.12em;
+
+  /* Space, 4px base */
+  --al-space-1:  0.25rem;
+  --al-space-2:  0.5rem;
+  --al-space-3:  0.75rem;
+  --al-space-4:  1rem;
+  --al-space-5:  1.25rem;
+  --al-space-6:  1.5rem;
+  --al-space-8:  2rem;
+  --al-space-10: 2.5rem;
+  --al-space-12: 3rem;
+  --al-space-16: 4rem;
+
+  /* Radius */
+  --al-radius-sm:   4px;
+  --al-radius-md:   8px;
+  --al-radius-lg:   16px;
+  --al-radius-pill: 999px;
+
+  /* Shadow, tinted with Midnight Focus */
+  --al-shadow-sm: 0 1px 2px rgb(36 18 95 / 0.08);
+  --al-shadow-md: 0 4px 16px rgb(36 18 95 / 0.12);
+}

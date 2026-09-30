@@ -1,0 +1,9 @@
+{
+  "name": "atlocal-brand",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "tokens": "node scripts/build-tokens.mjs",
+    "check": "node scripts/build-tokens.mjs --check && node scripts/check-assets.mjs"
+  }
+}
