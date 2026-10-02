@@ -1,7 +1,7 @@
 /* atLocal brand primitives — the canonical copy.
  *
- * Source: Figma "atlocal - claude" (key XH0FlVgtUuxnsjTniOxUoY), page "Guide",
- * frames 03 Colors and 04 Typography. Color names follow the guide's labels.
+ * Brand v2 (2026-10-02): the at[local] identity. Plum, Royal, Coral, Ruby,
+ * Cloud and White; Plus Jakarta Sans. Decisions: HeyHeathbar/atlocal-back-office#148.
  *
  * Canonical home: github.com/HeyHeathbar/atlocal-brand, published at
  * https://brand.atlocal.ai/atlocal.css. tokens.json is generated from this
@@ -10,33 +10,26 @@
  * Never reference --al-* names from components. Each surface maps them to
  * semantic roles in its own theme file and components use only those names.
  *
- * The kit defines colors and typefaces only. The type ramp, spacing scale,
+ * The brand defines colors and the typeface. The type ramp, spacing scale,
  * radii, and shadows below were chosen for the codebases and are the shared
  * standard across all three surfaces.
  */
 :root {
   /* Color. Comment format is parsed by scripts/build-tokens.mjs:
-   * Name · Pantone <code> · CMYK c m y k                                   */
-  --al-midnight: #24125f; /* Midnight Focus · Pantone 273 C  · CMYK 98 97 0 37 */
-  --al-royal:    #2f2a95; /* Royal Vision   · Pantone 2370 C · CMYK 99 94 0 2  */
-  --al-ruby:     #bc204b; /* Ruby Drive     · Pantone 7636 C · CMYK 0 100 44 14 */
-  --al-blush:    #ff808b; /* Blush Glow     · Pantone 177 C  · CMYK 0 58 29 0  */
-  --al-bloom:    #ffb1bb; /* Soft Bloom     · Pantone 176 C  · CMYK 0 34 9 0   */
-  --al-velvet:   #f7f5f5; /* Velvet White   · CMYK 0 1 1 3                     */
-  --al-white:    #ffffff; /* Whisper White  · CMYK 0 0 0 0                     */
+   * Name · Pantone <code> · CMYK c m y k   (print values not defined yet) */
+  --al-plum:   #21134f; /* Plum   */
+  --al-royal:  #3b20ab; /* Royal  */
+  --al-coral:  #ff7d80; /* Coral  */
+  --al-ruby:   #e14565; /* Ruby   */
+  --al-cloud:  #f4f1fb; /* Cloud  */
+  --al-white:  #ffffff; /* White  */
 
-  /* Gradients.
-   * Icon: Blush Glow at the top to Ruby Drive at the bottom.
-   * Brand: the app icon tile's gradient (Figma node 65:9278), which the guide's
-   * GRADIENT swatch matches as of 2026-09-30. */
-  --al-gradient-icon:  linear-gradient(0deg, #bc204b 0%, #ff808b 100%);
-  --al-gradient-brand: linear-gradient(151deg, #df4661 0%, #2f2a95 100%);
-
-  /* Type. Poppins for headings and body; Yeseva One for emphasis words only. */
-  --al-font-sans:    "Poppins", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
-  --al-font-display: "Yeseva One", Georgia, "Times New Roman", serif;
-  --al-weight-regular:  400;
-  --al-weight-semibold: 600;
+  /* Type. Plus Jakarta Sans throughout: ExtraBold for the logo and headlines,
+   * SemiBold for the brackets and labels, Medium for body copy. */
+  --al-font-sans: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --al-weight-medium:    500;
+  --al-weight-semibold:  600;
+  --al-weight-extrabold: 800;
 
   --al-text-xs:  0.75rem;  /* 12px */
   --al-text-sm:  0.875rem; /* 14px */
@@ -49,7 +42,7 @@
 
   --al-leading-tight:  1.15;
   --al-leading-normal: 1.5;
-  --al-tracking-caps:  0.12em;
+  --al-tracking-caps:  0.14em;
 
   /* Space, 4px base */
   --al-space-1:  0.25rem;
@@ -69,7 +62,7 @@
   --al-radius-lg:   16px;
   --al-radius-pill: 999px;
 
-  /* Shadow, tinted with Midnight Focus */
-  --al-shadow-sm: 0 1px 2px rgb(36 18 95 / 0.08);
-  --al-shadow-md: 0 4px 16px rgb(36 18 95 / 0.12);
+  /* Shadow, tinted with Plum */
+  --al-shadow-sm: 0 1px 2px rgb(33 19 79 / 0.08);
+  --al-shadow-md: 0 4px 16px rgb(33 19 79 / 0.12);
 }
