@@ -11,36 +11,46 @@ This is the source of truth for every atLocal-branded deliverable: presentations
 
 - Canonical URL: https://brand.atlocal.ai/START_HERE.md
 - Source repo: https://github.com/HeyHeathbar/atlocal-brand
-- Last updated: 2026-10-05 (master tagline is Your Story. Amplified.; studio lockups use market codes; brand v2: the at[local] identity; it replaces the earlier @ logo, palette and fonts)
+- Last updated: 2026-10-05 (how to write atLocal; master tagline is Your Story Amplified, no periods; studio lockups use market codes; brand v2: the at[local] identity; it replaces the earlier @ logo, palette and fonts)
 
 ## Name
 
-- In sentences, documents and email, write the company name as **atLocal**.
-- **at[local]**, with square brackets, is the logo only. Don't type it in running text.
+How to **write** the name, everywhere text appears (sentences, headlines, documents, email, slides, captions, file titles):
+
+**atLocal**: lowercase "a" and "t", capital "L", lowercase "ocal". One word, no space.
+
+- Always **atLocal**, even at the start of a sentence: "atLocal helps local businesses…"
+- Keep it **atLocal** in headings and title case: "Why atLocal Works".
+- Never: AtLocal, Atlocal, ATLOCAL, atlocal, At Local, at Local, @Local, or at[local].
+- If a design sets text in all capitals, write the name as **atLocal** anyway rather than letting it become ATLOCAL.
+- With a studio: "atLocal Dallas-Fort Worth" or "atLocal DFW".
+- Web addresses, email addresses and social handles stay lowercase as registered (atlocal.ai, atlocalmedia.com, @atlocal.dallas). That's an address, not the written name.
+
+**The logo is different.** The logo reads `at[local]`, all lowercase, inside brackets. That lettering belongs only in the logo files. Don't type "at[local]" in text, and don't capitalize the L in the logo.
 
 ## Tagline
 
-**Your Story. Amplified.**
+**Your Story Amplified**
 
 This is the master tagline. "Story" is always capitalized in it.
 
-The tagline adapts to the audience. "Your" and "Amplified." never change; when we know who we are talking to, "Story" is replaced with an approved word that describes them. Audience words are lowercase.
+The tagline adapts to the audience. "Your" and "Amplified" never change; when we know who we are talking to, "Story" is replaced with an approved word that describes them. Audience words are lowercase.
 
 | Audience | Tagline |
 |---|---|
-| Master / default | Your Story. Amplified. |
-| Businesses | Your business. Amplified. |
-| Retail | Your store. Amplified. |
-| Healthcare and professional practices | Your practice. Amplified. |
-| Organizations and associations | Your organization. Amplified. |
-| Foundations | Your foundation. Amplified. |
-| Nonprofits | Your nonprofit. Amplified. |
+| Master / default | Your Story Amplified |
+| Businesses | Your business Amplified |
+| Retail | Your store Amplified |
+| Healthcare and professional practices | Your practice Amplified |
+| Organizations and associations | Your organization Amplified |
+| Foundations | Your foundation Amplified |
+| Nonprofits | Your nonprofit Amplified |
 
-- Use **"Your Story. Amplified."** as the master version: the primary brand lockup, general company materials, introductions to atLocal, and anywhere the audience is mixed or unknown.
+- Use **"Your Story Amplified"** as the master version: the primary brand lockup, general company materials, introductions to atLocal, and anywhere the audience is mixed or unknown.
 - When the audience is known, use its word and keep that one version throughout the piece. Don't switch words inside one document.
 - Only the words in the table are approved. For any other audience word, ask Heath.
-- No quotation marks or brackets in the finished tagline. The middle word may carry the accent colour (Ruby).
-- On a homepage the middle word may rotate through the audience words while "Your" and "Amplified." stay still. Don't let the surrounding text shift, and provide a static version for reduced-motion settings.
+- No periods, quotation marks or brackets in the finished tagline. It is written exactly as shown in the table. The middle word may carry the accent colour (Ruby).
+- On a homepage the middle word may rotate through the audience words while "Your" and "Amplified" stay still. Don't let the surrounding text shift, and provide a static version for reduced-motion settings.
 - Supporting line, for any audience: **We help the right people find you, understand what makes you different, and take action.** Make the outcome specific in the surrounding copy: purchases for a store, inquiries for a practice, donations or participation for a nonprofit.
 
 Every variation carries the same atLocal promise: helping the right people discover, understand, and engage with what our clients have built.
@@ -148,7 +158,7 @@ The brand does not define these yet. **Ask Heath. Do not invent them**, and don'
 - Photography and image treatment: **TBD**
 - Icons and graphic elements beyond the pin
 - Voice and tone beyond the tagline and supporting line
-- Presentation layouts: a Slides master is coming (see the Google Drive "AtLocal Brand System" folder when it exists)
+- Presentation layouts: a Slides master is coming (see the Google Drive "atLocal Brand System" folder when it exists)
 
 ## For AI tools
 
