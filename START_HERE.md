@@ -11,7 +11,7 @@ This is the source of truth for every atLocal-branded deliverable: presentations
 
 - Canonical URL: https://brand.atlocal.ai/START_HERE.md
 - Source repo: https://github.com/HeyHeathbar/atlocal-brand
-- Last updated: 2026-10-02 (brand v2: the at[local] identity; it replaces the earlier @ logo, palette and fonts)
+- Last updated: 2026-10-05 (studio lockups use market codes; brand v2: the at[local] identity; it replaces the earlier @ logo, palette and fonts)
 
 ## Name
 
@@ -70,7 +70,7 @@ One typeface: **Plus Jakarta Sans** (https://fonts.google.com/specimen/Plus+Jaka
 | Labels, small caps lines, buttons | SemiBold (600) |
 | Body copy | Medium (500) |
 
-- City and section labels are set in capitals, SemiBold, with wide letter spacing (0.14em).
+- Market codes, city and section labels are set in capitals, SemiBold, with wide letter spacing (0.14em).
 - If a tool cannot load Plus Jakarta Sans, say so. Don't silently substitute another typeface.
 
 ## Logo
@@ -113,15 +113,17 @@ App icons (the pin on a rounded tile):
 
 ### Studio lockups
 
-Each studio (city) has its own lockup: the logo, a Ruby divider, and the studio name in capitals.
+Each studio has its own lockup: the logo followed by the studio's **market code** in capitals. There is no divider between them.
 
-| Studio | Light | Dark |
-|---|---|---|
-| Central Arkansas | [SVG](https://brand.atlocal.ai/studio/atlocal-studio-central-arkansas-light.svg) · [PNG](https://brand.atlocal.ai/studio/atlocal-studio-central-arkansas-light.png) | [SVG](https://brand.atlocal.ai/studio/atlocal-studio-central-arkansas-dark.svg) · [PNG](https://brand.atlocal.ai/studio/atlocal-studio-central-arkansas-dark.png) |
-| Dallas | [SVG](https://brand.atlocal.ai/studio/atlocal-studio-dallas-light.svg) · [PNG](https://brand.atlocal.ai/studio/atlocal-studio-dallas-light.png) | [SVG](https://brand.atlocal.ai/studio/atlocal-studio-dallas-dark.svg) · [PNG](https://brand.atlocal.ai/studio/atlocal-studio-dallas-dark.png) |
-| Northwest Arkansas | [SVG](https://brand.atlocal.ai/studio/atlocal-studio-northwest-arkansas-light.svg) · [PNG](https://brand.atlocal.ai/studio/atlocal-studio-northwest-arkansas-light.png) | [SVG](https://brand.atlocal.ai/studio/atlocal-studio-northwest-arkansas-dark.svg) · [PNG](https://brand.atlocal.ai/studio/atlocal-studio-northwest-arkansas-dark.png) |
+| Code | Studio | Light | Dark |
+|---|---|---|---|
+| DFW | Dallas-Fort Worth | [SVG](https://brand.atlocal.ai/studio/atlocal-studio-dfw-light.svg) · [PNG](https://brand.atlocal.ai/studio/atlocal-studio-dfw-light.png) | [SVG](https://brand.atlocal.ai/studio/atlocal-studio-dfw-dark.svg) · [PNG](https://brand.atlocal.ai/studio/atlocal-studio-dfw-dark.png) |
+| LIT | Little Rock (Central Arkansas) | [SVG](https://brand.atlocal.ai/studio/atlocal-studio-lit-light.svg) · [PNG](https://brand.atlocal.ai/studio/atlocal-studio-lit-light.png) | [SVG](https://brand.atlocal.ai/studio/atlocal-studio-lit-dark.svg) · [PNG](https://brand.atlocal.ai/studio/atlocal-studio-lit-dark.png) |
+| NWA | Northwest Arkansas | [SVG](https://brand.atlocal.ai/studio/atlocal-studio-nwa-light.svg) · [PNG](https://brand.atlocal.ai/studio/atlocal-studio-nwa-light.png) | [SVG](https://brand.atlocal.ai/studio/atlocal-studio-nwa-dark.svg) · [PNG](https://brand.atlocal.ai/studio/atlocal-studio-nwa-dark.png) |
 
-For a studio that isn't listed, ask Heath for a lockup. Don't type a city name next to the logo yourself.
+- Market codes favour the **airport code** people already know (DFW, LIT). Where a region is better known by another abbreviation, use that (NWA).
+- In running text, write the studio name in full ("atLocal Dallas-Fort Worth") or as "atLocal DFW".
+- For a studio that isn't listed, ask Heath for its code and lockup. Don't type a code next to the logo yourself.
 
 ### How the logo is built (for reference, not for rebuilding)
 
