@@ -3,6 +3,7 @@
 
     pip install fonttools uharfbuzz
     python3 scripts/build_logos.py        # writes SVGs into logo/ symbol/ icon/ studio/
+    (rm studio/* first if a studio was renamed or removed)
     for f in logo/*.svg symbol/*.svg icon/*.svg studio/*.svg; do
       rsvg-convert -z 4 "$f" -o "${f%.svg}.png"; done
 
@@ -137,7 +138,7 @@ def svg(width, height, x0, y0, title, body):
 
 
 def logo(main, accent, shadow, title, studio=None):
-    """Pin, then at[local]. `studio` adds a divider and a city name."""
+    """Pin, then at[local]. `studio` adds a market code after it."""
     baseline, tx = 0.0, 0.0
     top, bottom = bracket_extent(baseline)
     cy = bottom - SHADOW_RY
@@ -160,14 +161,13 @@ def logo(main, accent, shadow, title, studio=None):
     body += f'<path d="{d_at}{d_open}{d_close}" fill="{accent}"/><path d="{d_local}" fill="{main}"/>'
 
     if studio:
-        gap = 0.22 * S
-        rule_x = right + gap
-        body += f'<rect x="{fmt(rule_x)}" y="{fmt(top + 0.08 * S)}" width="{fmt(0.02 * S)}" height="{fmt(bottom - top - 0.16 * S)}" fill="{accent}"/>'
-        size = 0.26 * S
-        cap = SEMI.bounds("H")[3] * size / SEMI.upm
-        d_city, end = set_run(SEMI, studio.upper(), size, rule_x + 0.02 * S + gap, (top + bottom) / 2 + cap / 2, 0.14 * size)
-        body += f'<path d="{d_city}" fill="{main}"/>'
-        right = end - 0.14 * size
+        # Market code in capitals, sitting on the wordmark's baseline. Its cap
+        # height matches the x-height of "local", so it reads as part of the line.
+        x_height = BOLD.bounds("x")[3] * S / BOLD.upm
+        size = x_height / (SEMI.bounds("H")[3] / SEMI.upm)
+        d_code, end = set_run(SEMI, studio.upper(), size, right + 0.3 * S, baseline, 0.06 * size)
+        body += f'<path d="{d_code}" fill="{main}"/>'
+        right = end - 0.06 * size
 
     x0, y0 = px - PAD, top - PAD
     return svg(right + PAD - x0, bottom + PAD - y0, x0, y0, title, body)
@@ -221,11 +221,13 @@ def main():
     write("icon/atlocal-app-icon-plum.svg", app_icon(PLUM, WHITE, RUBY, "atLocal app icon on Plum"))
     write("icon/atlocal-app-icon-white.svg", app_icon(WHITE, PLUM, RUBY, "atLocal app icon on white"))
 
-    for city in ("Central Arkansas", "Dallas", "Northwest Arkansas"):
-        slug = city.lower().replace(" ", "-")
-        write(f"studio/atlocal-studio-{slug}-light.svg", logo(PLUM, RUBY, RUBY, f"atLocal {city}, for light backgrounds", studio=city))
-        write(f"studio/atlocal-studio-{slug}-dark.svg", logo(WHITE, RUBY, RUBY, f"atLocal {city}, for dark backgrounds", studio=city))
-
+    # Studio lockups use a short market code: the airport code where people
+    # know it, otherwise the most recognised abbreviation.
+    studios = {"DFW": "Dallas-Fort Worth", "LIT": "Little Rock", "NWA": "Northwest Arkansas"}
+    for code, market in studios.items():
+        slug = code.lower()
+        write(f"studio/atlocal-studio-{slug}-light.svg", logo(PLUM, RUBY, RUBY, f"atLocal {market} ({code}), for light backgrounds", studio=code))
+        write(f"studio/atlocal-studio-{slug}-dark.svg", logo(WHITE, RUBY, RUBY, f"atLocal {market} ({code}), for dark backgrounds", studio=code))
 
 if __name__ == "__main__":
     main()
