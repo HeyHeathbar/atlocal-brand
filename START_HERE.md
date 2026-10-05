@@ -11,7 +11,7 @@ This is the source of truth for every atLocal-branded deliverable: presentations
 
 - Canonical URL: https://brand.atlocal.ai/START_HERE.md
 - Source repo: https://github.com/HeyHeathbar/atlocal-brand
-- Last updated: 2026-10-05 (studio lockups use market codes; brand v2: the at[local] identity; it replaces the earlier @ logo, palette and fonts)
+- Last updated: 2026-10-05 (master tagline is Your Story. Amplified.; studio lockups use market codes; brand v2: the at[local] identity; it replaces the earlier @ logo, palette and fonts)
 
 ## Name
 
@@ -20,24 +20,27 @@ This is the source of truth for every atLocal-branded deliverable: presentations
 
 ## Tagline
 
-**Your business. Amplified.**
+**Your Story. Amplified.**
 
-The tagline adapts to the audience. "Your" and "Amplified." never change; the middle word is replaced with an approved word that describes who we are talking to.
+This is the master tagline. "Story" is always capitalized in it.
+
+The tagline adapts to the audience. "Your" and "Amplified." never change; when we know who we are talking to, "Story" is replaced with an approved word that describes them. Audience words are lowercase.
 
 | Audience | Tagline |
 |---|---|
-| General / default | Your business. Amplified. |
+| Master / default | Your Story. Amplified. |
+| Businesses | Your business. Amplified. |
 | Retail | Your store. Amplified. |
 | Healthcare and professional practices | Your practice. Amplified. |
 | Organizations and associations | Your organization. Amplified. |
 | Foundations | Your foundation. Amplified. |
 | Nonprofits | Your nonprofit. Amplified. |
 
-- Use **"business"** as the master version: the primary brand lockup, general company materials, introductions to atLocal.
-- When the audience is known, match the word to it and keep that one version throughout the piece. Don't switch words inside one document.
+- Use **"Your Story. Amplified."** as the master version: the primary brand lockup, general company materials, introductions to atLocal, and anywhere the audience is mixed or unknown.
+- When the audience is known, use its word and keep that one version throughout the piece. Don't switch words inside one document.
 - Only the words in the table are approved. For any other audience word, ask Heath.
 - No quotation marks or brackets in the finished tagline. The middle word may carry the accent colour (Ruby).
-- On a homepage the middle word may rotate through the approved words while "Your" and "Amplified." stay still. Don't let the surrounding text shift, and provide a static version for reduced-motion settings.
+- On a homepage the middle word may rotate through the audience words while "Your" and "Amplified." stay still. Don't let the surrounding text shift, and provide a static version for reduced-motion settings.
 - Supporting line, for any audience: **We help the right people find you, understand what makes you different, and take action.** Make the outcome specific in the surrounding copy: purchases for a store, inquiries for a practice, donations or participation for a nonprofit.
 
 Every variation carries the same atLocal promise: helping the right people discover, understand, and engage with what our clients have built.
