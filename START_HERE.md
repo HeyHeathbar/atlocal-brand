@@ -78,7 +78,7 @@ Where each color goes, on every surface:
 | Coral | Accents on Plum backgrounds (labels, icons, an accent word) | Anything on White or Cloud |
 | Cloud and White | Light backgrounds | |
 
-- **Buttons:** Royal with white text, turning Plum on hover. On a Plum background the button is Coral with Plum text.
+- **Buttons:** Royal with white text, turning Plum on hover.
 - **The signature button:** a page may have one Ruby button with white text for its single most important action (on the homepage, "Press Play"). It must be large with a bold label, because white on Ruby is 4.0:1 contrast, which is enough for large bold text only. It turns Plum on hover.
 - **Software** (atlocal.ai back office and client spaces) is a quiet tool: no Ruby buttons at all. There Ruby is the logo and a large accent word on branded moments such as sign-in.
 - **Contrast, so the rules above are not guesswork:** white on Plum 16.5:1, white on Royal 10.6:1, Coral on Plum 6.7:1, white on Ruby 4.0:1, Coral on White 2.5:1. Body-size text needs 4.5:1.
