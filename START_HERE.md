@@ -166,7 +166,7 @@ The brand does not define these yet. **Ask Heath. Do not invent them**, and don'
 - Logo clear space and minimum size
 - A stacked (two-line) logo and a wordmark-only logo without the pin
 - Logo misuse (a "don't" list) beyond the rules above
-- How much of each color to use in a layout (proportions). Where each color goes is defined under [Color roles](#color-roles).
+- How much of each color to use in a layout (proportions), and what a button looks like on a Plum background. Where each color goes is defined under [Color roles](#color-roles).
 - Type sizes and hierarchy for documents and slides. (`atlocal.css` has a web type scale for the websites. It is not a document standard.)
 - Print values (Pantone, CMYK) for the colors
 - Photography and image treatment: **TBD**
