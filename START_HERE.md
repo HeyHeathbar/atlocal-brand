@@ -11,7 +11,7 @@ This is the source of truth for every atLocal-branded deliverable: presentations
 
 - Canonical URL: https://brand.atlocal.ai/START_HERE.md
 - Source repo: https://github.com/HeyHeathbar/atlocal-brand
-- Last updated: 2026-10-05 (how to write atLocal; master tagline is Your Story Amplified, no periods; studio lockups use market codes; brand v2: the at[local] identity; it replaces the earlier @ logo, palette and fonts)
+- Last updated: 2026-10-06 (color roles: where Plum, Royal, Ruby and Coral go; how to write atLocal; master tagline is Your Story Amplified, no periods; studio lockups use market codes; brand v2: the at[local] identity; it replaces the earlier @ logo, palette and fonts)
 
 ## Name
 
@@ -66,10 +66,24 @@ Every variation carries the same atLocal promise: helping the right people disco
 | Cloud | `#F4F1FB` | 244, 241, 251 | `--al-cloud` |
 | White | `#FFFFFF` | 255, 255, 255 | `--al-white` |
 
-- **Plum** is the dark: dark backgrounds, and text on light backgrounds.
-- **Ruby** is the accent in the logo on both light and dark backgrounds.
-- **Cloud** and **White** are the light backgrounds.
+### Color roles
+
+Where each color goes, on every surface:
+
+| Color | Use it for | Don't use it for |
+|---|---|---|
+| Plum | Dark backgrounds; text on light backgrounds; the hover state of a button | |
+| Royal | Everyday buttons and links; focus rings | |
+| Ruby | The logo; an accent word in a headline; **one** signature button on a page | Small buttons, body-size text, or more than one button on a page |
+| Coral | Accents on Plum backgrounds (labels, icons, an accent word) | Anything on White or Cloud |
+| Cloud and White | Light backgrounds | |
+
+- **Buttons:** Royal with white text, turning Plum on hover.
+- **The signature button:** a page may have one Ruby button with white text for its single most important action (on the homepage, "Press Play"). It must be large with a bold label, because white on Ruby is 4.0:1 contrast, which is enough for large bold text only. It turns Plum on hover.
+- **Software** (atlocal.ai back office and client spaces) is a quiet tool: no Ruby buttons at all. There Ruby is the logo and a large accent word on branded moments such as sign-in.
+- **Contrast, so the rules above are not guesswork:** white on Plum 16.5:1, white on Royal 10.6:1, Coral on Plum 6.7:1, white on Ruby 4.0:1, Coral on White 2.5:1. Body-size text needs 4.5:1.
 - Use only these colors. No tints, shades, gradients, or extra accent colors unless Heath approves them.
+- **Approved exception, software only:** a working tool needs a muted text color, borders, hover backgrounds and green / amber / red status colors. Heath approved a short list for the back office; it lives in that codebase's `tokens/back-office.css`. Don't use those values on marketing, print, slides or social, and don't add to them without asking Heath.
 
 Machine-readable: https://brand.atlocal.ai/tokens.json · CSS: https://brand.atlocal.ai/atlocal.css
 
@@ -152,7 +166,7 @@ The brand does not define these yet. **Ask Heath. Do not invent them**, and don'
 - Logo clear space and minimum size
 - A stacked (two-line) logo and a wordmark-only logo without the pin
 - Logo misuse (a "don't" list) beyond the rules above
-- How much of each color to use, and where Royal and Coral belong
+- How much of each color to use in a layout (proportions), and what a button looks like on a Plum background. Where each color goes is defined under [Color roles](#color-roles).
 - Type sizes and hierarchy for documents and slides. (`atlocal.css` has a web type scale for the websites. It is not a document standard.)
 - Print values (Pantone, CMYK) for the colors
 - Photography and image treatment: **TBD**
