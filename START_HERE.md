@@ -11,7 +11,8 @@ This is the source of truth for every atLocal-branded deliverable: presentations
 
 - Canonical URL: https://brand.atlocal.ai/START_HERE.md
 - Source repo: https://github.com/HeyHeathbar/atlocal-brand
-- Last updated: 2026-10-06 (color roles: where Plum, Royal, Ruby and Coral go; how to write atLocal; master tagline is Your Story Amplified, no periods; studio lockups use market codes; brand v2: the at[local] identity; it replaces the earlier @ logo, palette and fonts)
+- Brand board (the brand at a glance, for people; this file stays the rules): https://brand.atlocal.ai/board/
+- Last updated: 2026-10-10 (one-color white logo approved on Ruby and Royal; brand board at /board/; color roles: where Plum, Royal, Ruby and Coral go; how to write atLocal; master tagline is Your Story Amplified, no periods; studio lockups use market codes; brand v2: the at[local] identity; it replaces the earlier @ logo, palette and fonts)
 
 ## Name
 
@@ -109,7 +110,7 @@ The logo is the **pin followed by at[local]**. All files have transparent backgr
 | Light | White or Cloud | [SVG](https://brand.atlocal.ai/logo/atlocal-logo-light.svg) · [PNG](https://brand.atlocal.ai/logo/atlocal-logo-light.png) |
 | Dark | Plum | [SVG](https://brand.atlocal.ai/logo/atlocal-logo-dark.svg) · [PNG](https://brand.atlocal.ai/logo/atlocal-logo-dark.png) |
 | One-color black | Light backgrounds when only one ink is available | [SVG](https://brand.atlocal.ai/logo/atlocal-logo-black.svg) · [PNG](https://brand.atlocal.ai/logo/atlocal-logo-black.png) |
-| One-color white | Dark backgrounds when only one ink is available | [SVG](https://brand.atlocal.ai/logo/atlocal-logo-white.svg) · [PNG](https://brand.atlocal.ai/logo/atlocal-logo-white.png) |
+| One-color white | Ruby or Royal backgrounds; dark backgrounds when only one ink is available | [SVG](https://brand.atlocal.ai/logo/atlocal-logo-white.svg) · [PNG](https://brand.atlocal.ai/logo/atlocal-logo-white.png) |
 
 How the colors work:
 
@@ -119,6 +120,8 @@ How the colors work:
 | "at", brackets and the shadow under the pin | Ruby | Ruby |
 
 The one-color versions have no shadow.
+
+On a **Ruby** or **Royal** background, use the one-color white logo (or the one-color white pin). The Light and Dark versions stay on White, Cloud and Plum. Don't place any logo on Coral.
 
 ### The pin
 
