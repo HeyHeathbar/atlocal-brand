@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>atLocal Brand Board</title>
+<meta name="description" content="The atLocal brand at a glance: logo, colors, tagline and the brand in use.">
+<link rel="icon" href="/icon/atlocal-app-icon-plum.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/atlocal.css">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #d9d6e0; font-family: var(--al-font-sans); font-weight: 500; color: var(--al-plum); }
+  .board { max-width: 1180px; margin: 0 auto; padding: 28px; display: grid; gap: 14px; grid-template-columns: repeat(12, 1fr); }
+  .t { border-radius: 6px; overflow: hidden; position: relative; display: flex; align-items: center; justify-content: center; min-height: 0; }
+  .t > small { position: absolute; left: 14px; top: 12px; font-size: 10px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; opacity: .55; }
+  .plum { background: var(--al-plum); color: #fff; } .royal { background: var(--al-royal); color: #fff; }
+  .ruby { background: var(--al-ruby); color: #fff; } .coral { background: var(--al-coral); }
+  .cloud { background: var(--al-cloud); } .white { background: #fff; }
+
+  .social { grid-column: span 4; height: 250px; }
+  .post { width: 170px; height: 170px; border-radius: 10px; background: var(--al-plum); color: #fff; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 18px 30px -14px rgb(33 19 79 / .5); transform: rotate(-4deg); }
+  .post img { width: 30px; }
+  .post b { font-weight: 800; font-size: 25px; line-height: 1.02; letter-spacing: -.03em; }
+  .post b i, .tag i { font-style: normal; color: var(--al-ruby); }
+  .post.two { background: var(--al-coral); color: var(--al-plum); transform: rotate(5deg) translate(-26px, 18px); }
+  .post.two b i { color: #fff; }
+
+  .top { grid-column: span 8; display: grid; gap: 14px; grid-template-rows: 54px 1fr; grid-template-columns: 1fr 1fr 1fr; height: 250px; }
+  .strip { grid-column: 1 / -1; display: flex; border-radius: 6px; overflow: hidden; }
+  .strip div { flex: 1; }
+  .top .t img.logo { width: 72%; }
+  .top .t img.app { width: 92px; border-radius: 22.5%; box-shadow: 0 14px 24px -10px rgb(0 0 0 / .45); }
+
+  .hero { grid-column: span 9; height: 330px; }
+  .hero img { width: 62%; }
+  .side { grid-column: span 3; display: grid; gap: 14px; grid-template-rows: 1fr 1fr; height: 330px; }
+  .side img { width: 76%; }
+
+  .tagtile { grid-column: span 4; height: 270px; justify-content: flex-start; padding: 26px; align-items: flex-end; }
+  .tag { margin: 0; font-weight: 800; font-size: 46px; line-height: 1; letter-spacing: -.035em; }
+  .coral .tag i { color: #fff; }
+  .cards { grid-column: span 4; height: 270px; }
+  .card { width: 190px; height: 112px; border-radius: 7px; display: flex; align-items: center; justify-content: center; box-shadow: 0 16px 26px -14px rgb(33 19 79 / .55); position: absolute; }
+  .card.front { background: var(--al-plum); transform: rotate(-8deg) translate(-34px, -26px); }
+  .card.front img { width: 68%; }
+  .card.back { background: #fff; transform: rotate(6deg) translate(34px, 30px); flex-direction: column; align-items: flex-start; padding: 16px; gap: 3px; font-size: 9px; }
+  .card.back img { width: 20px; margin-bottom: auto; }
+  .card.back b { font-weight: 800; font-size: 12px; }
+  .card.back span { color: var(--al-ruby); font-weight: 600; letter-spacing: .14em; text-transform: uppercase; font-size: 7.5px; }
+  .studios { grid-column: span 2; height: 270px; flex-direction: column; gap: 22px; padding: 14px; }
+  .studios img { width: 100%; }
+  .pattern { grid-column: span 2; height: 270px; background-color: var(--al-royal); background-image: url(/symbol/atlocal-pin-white.svg); background-size: 46px; background-position: center; }
+  .pattern::after { content: ""; position: absolute; inset: 0; background: rgb(59 32 171 / .72); }
+  .pattern img { width: 56%; position: relative; z-index: 1; }
+  .nav { max-width: 1180px; margin: 0 auto; padding: 20px 28px 0; display: flex; justify-content: space-between; font-size: 13px; font-weight: 600; }
+  .nav a { color: var(--al-royal); text-decoration: none; }
+  .nav span { letter-spacing: .14em; text-transform: uppercase; font-size: 11px; opacity: .6; }
+  @media (max-width: 760px) { .board { padding: 14px; } .board > * { grid-column: 1 / -1 !important; } }
+</style>
+</head>
+<body>
+<nav class="nav"><a href="/">← Brand System</a><span>atLocal Brand Board</span></nav>
+<div class="board">
+  <div class="t cloud social"><small>Social</small>
+    <div class="post"><img src="/symbol/atlocal-pin-dark.svg" alt=""><b>Your <i>Story</i><br>Amplified</b></div>
+    <div class="post two"><img src="/symbol/atlocal-pin-light.svg" alt=""><b>Your <i>store</i><br>Amplified</b></div>
+  </div>
+  <div class="top">
+    <div class="strip"><div class="plum"></div><div class="royal"></div><div class="ruby"></div><div class="coral"></div><div class="cloud"></div><div class="white"></div></div>
+    <div class="t ruby"><img class="logo" src="/logo/atlocal-logo-white.svg" alt="atLocal"></div>
+    <div class="t coral"><img class="app" src="/icon/atlocal-app-icon-plum.svg" alt="App icon"></div>
+    <div class="t royal"><img class="logo" src="/logo/atlocal-logo-white.svg" alt="atLocal"></div>
+  </div>
+
+  <div class="t plum hero"><img src="/logo/atlocal-logo-dark.svg" alt="atLocal"></div>
+  <div class="side">
+    <div class="t white"><img src="/logo/atlocal-logo-light.svg" alt="atLocal"></div>
+    <div class="t cloud"><img src="/logo/atlocal-logo-black.svg" alt="atLocal"></div>
+  </div>
+
+  <div class="t coral tagtile"><small>Tagline</small><p class="tag">Your<br><i>Story</i><br>Amplified</p></div>
+  <div class="t cloud cards"><small>Business card</small>
+    <div class="card back"><img src="/symbol/atlocal-pin-light.svg" alt=""><b>Name Here</b><span>Title · DFW</span>name@atlocal.ai</div>
+    <div class="card front"><img src="/logo/atlocal-logo-dark.svg" alt="atLocal"></div>
+  </div>
+  <div class="t white studios"><small>Studios</small>
+    <img src="/studio/atlocal-studio-dfw-light.svg" alt="atLocal DFW">
+    <img src="/studio/atlocal-studio-lit-light.svg" alt="atLocal LIT">
+    <img src="/studio/atlocal-studio-nwa-light.svg" alt="atLocal NWA">
+  </div>
+  <div class="t pattern"><img src="/symbol/atlocal-pin-dark.svg" alt="atLocal pin"></div>
+</div>
+</body>
+</html>
